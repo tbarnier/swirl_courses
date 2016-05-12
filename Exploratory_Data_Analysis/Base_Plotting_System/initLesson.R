@@ -1,6 +1,9 @@
 library(jpeg)
 library(datasets)
 
+#the mpg datast is part of the 'ggplot2' package
+library(ggplot2)
+
 # For compatibility with 2.2.21
 .get_course_path <- function(){
   tryCatch(swirl:::swirl_courses_dir(),
